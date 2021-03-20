@@ -6,7 +6,7 @@ Beginner workshop introducing the HS is project methodologies and some useful GI
 You'll Need the following software:
 
  * GIT: https://filezilla-project.org/download.php?type=client  
-     or
+	+ or
  * GitHub Desktop: https://desktop.github.com/
  * Text Editor / IDE (Recommended - Visual Studio Code): https://code.visualstudio.com/
 
