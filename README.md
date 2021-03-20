@@ -12,4 +12,5 @@ You'll Need the following software:
 
 
 ### LIVE WEBSITE
-[CLICK HERE](https://hackerschool.github.io/projects_git_workshop/)
+[--> CLICK HERE <--](https://hackerschool.github.io/projects_git_workshop/)´
+[comment]: <> (https://youtu.be/j5a0jTc9S10?list=PLFuNbp0NQ1D9ZMiyspdMS2hLtliqk9hVn)
