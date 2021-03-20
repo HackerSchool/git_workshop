@@ -9,3 +9,7 @@ You'll Need the following software:
      or
  * GitHub Desktop: https://desktop.github.com/
  * Text Editor / IDE (Recommended - Visual Studio Code): https://code.visualstudio.com/
+
+
+### LIVE WEBSITE
+[CLICK HERE](https://hackerschool.github.io/projects_git_workshop/)
