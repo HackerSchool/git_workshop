@@ -1,2 +1,11 @@
-# projects_git_workshop
-# projects_git_workshop
+# Projects & Git Workshop
+Beginner workshop introducing the HS is project methodologies and some useful GIT/GitHub Desktop features.
+
+
+## Requisites
+You'll Need the following software:
+
+ * GIT: https://filezilla-project.org/download.php?type=client
+ or
+ * GitHub Desktop: https://desktop.github.com/
+ * Text Editor / IDE (Recommended - Visual Studio Code): https://code.visualstudio.com/
