@@ -3,7 +3,7 @@ Beginner workshop introducing the HS is project methodologies and some useful GI
 
 
 ## Requisites
-You'll Need the following software:
+You'll need the following software:
 
  * GIT: https://git-scm.com/download  
 	+ or
