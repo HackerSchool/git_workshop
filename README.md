@@ -10,7 +10,7 @@ Para o workshop são necessárias as seguintes ferramentas:
  - **git:**: https://git-scm.com/download  
 	+ ou opcionalmente
  - GitHub Desktop: https://desktop.github.com/
- - **Text Editor / IDE (Recommended - Visual Studio Code):** Iremos usar o VSCode como editor de código neste workshop ([Site de instalação](https://code.visualstudio.com/) | [Extensão C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)).
+ - **Text Editor / IDE (Recommended - Visual Studio Code):** Iremos usar o VSCode como editor de código neste workshop ([Site de instalação](https://code.visualstudio.com/)).
  - (Opcional) **Windows Terminal:** Apenas opcional, mas para quem quiser esta versão do terminal do Windows 10/11 integra quaisquer terminais que tenham no computador (CMD, PowerShell, Ubuntu, etc.) com um visual mais compacto e moderno ([Site de instalação](https://docs.microsoft.com/en-us/windows/terminal/get-started)).
 
 
