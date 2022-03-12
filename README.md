@@ -1,20 +1,21 @@
-# Workshop Git 
-Beginner workshop introducing some useful GIT/GitHub Desktop features.
+# **Workshop Git** 
+Workshop introdutório de git/GitHub.
 
 
+#### [LIVE WEBSITE](https://hackerschool.github.io/git_workshop/)
 
-## Guia de Instalação
+## **Guia de Instalação**
 
 Para o workshop são necessárias as seguintes ferramentas:
  - **Terminal/Shell:** Para quem tem um sistema operativo macOS ou Linux esta vem integrada (ir para secção [git](##git)); para quem possui Windows ver a secção [WSL (Windows Subsystem for Linux)](#wsl-windows-subsystem-for-linux).
  - **git:**: https://git-scm.com/download  
-	+ ou opcionalmente
- - GitHub Desktop: https://desktop.github.com/
+	- ou opcionalmente
+ - **GitHub Desktop**: https://desktop.github.com/
  - **Text Editor / IDE (Recommended - Visual Studio Code):** Iremos usar o VSCode como editor de código neste workshop ([Site de instalação](https://code.visualstudio.com/)).
  - (Opcional) **Windows Terminal:** Apenas opcional, mas para quem quiser esta versão do terminal do Windows 10/11 integra quaisquer terminais que tenham no computador (CMD, PowerShell, Ubuntu, etc.) com um visual mais compacto e moderno ([Site de instalação](https://docs.microsoft.com/en-us/windows/terminal/get-started)).
 
 
-# git
+## **git**
 
 Para instalar o git na vossa máquina vão ter de correr os seguintes comandos (ou instalar o executavel do git no caso do windows) dependendo do vosso sistema operativo:
 
@@ -44,7 +45,7 @@ git --version
 
 
 
-## WSL (Windows Subsystem for Linux) 
+## **WSL (Windows Subsystem for Linux)**
 
 - Guia de Instalação para Windows 10/11
 
@@ -53,7 +54,7 @@ O Subsistema Windows para Linux (WSL) permite que developers corram um ambiente 
 Iremos instalar a versão 2 do WSL, sendo esta a mais recente e a que melhor simula um ambiente GNU/Linux sem problemas de desempenho e compatibilidade.
 
 
-### Passo 1 - Ativar o 'Windows Subsystem for Linux'
+### **Passo 1 - Ativar o 'Windows Subsystem for Linux'**
 
 Primeiro deves ativar o recurso opcional **Subsistema Windows para Linux** antes de instalar alguma distribuição Linux no Windows.
 
@@ -64,7 +65,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ![PowerShell](https://i.imgur.com/shjnI9o.png)
 ![Comando para ativar WSL no Windows 10](https://i.imgur.com/DkGwscS.png)
 
-### Passo 2 - Ativar o recurso de Máquina Virtual
+### **Passo 2 - Ativar o recurso de Máquina Virtual**
 
 Antes de instalarem o WSL 2, precisam de ativar o recurso opcional **Plataforma de Máquina Virtual**.
 
@@ -78,7 +79,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 **Reinicia** a tua máquina para concluir a instalação do WSL e procede para o próximo passo para atualizares para o WSL 2.
 
 
-### Passo 3 - Descarregar o pacote de atualização do kernel Linux
+### **Passo 3 - Descarregar o pacote de atualização do kernel Linux**
 
 1.  Descarrega o pacote mais recente:
     - [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
@@ -87,14 +88,14 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 Assim que a instalação estiver concluída, passa para o próximo passo - definir WSL 2 como a versão padrão ao instalar novas distribuições Linux. 
 
-### Passo 4 - Definir WSL 2 como a versão padrão
+### **Passo 4 - Definir WSL 2 como a versão padrão**
 
 Abre PowerShell como Administrador e corre o seguinte comando para definir o WSL 2 como a versão padrão ao instalar novas distribuições Linux:
 ```
 wsl --set-default-version 2
 ```
 ![Definir WSL 2 como padrão](https://i.imgur.com/FZb5xna.png)
-### Passo 5 - Instalar a distribuição Linux - Ubuntu
+### **Passo 5 - Instalar a distribuição Linux - Ubuntu**
 
 Vamos usar o Ubuntu por ser a distribuição mais amigável na ótica do utilizador, mas também porque é a mais completa e versátil para qualquer ambiente de desenvolvimento.
 
@@ -129,9 +130,17 @@ Esta secção foi baseada no guia oficial da Microsoft presente [neste site](htt
 
 
 
-### FIM
+
+## **Links Úteis:**
+
+ - [Github Docs](https://docs.github.com/en)
+ - [GitHub's Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+ - [Git Katas (Git learning with exercises) <-- **RECOMMENDED**](https://github.com/eficode-academy/git-katas)
+ - [Git Basics with Professor António Rito Silva @IST](https://www.youtube.com/watch?v=MK-_CLSgDmc)
+ - [GitHub's Training Website](https://try.github.io/)
+ - [Git Tutorial for Beginners](https://youtu.be/XF99kTmS2gg)
+ - [GitHub Tutorial 2020 - Beginner's Training Guide](https://youtu.be/iv8rSLsi1xo)
+
+
+## **FIM**
 Quaisquer dúvidas adicionais recorram aos canais de discord atribuídos para esse fim.
-
-
-
-#### [LIVE WEBSITE](https://hackerschool.github.io/projects_git_workshop/)
