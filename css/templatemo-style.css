@@ -24,6 +24,11 @@ video {
   object-fit: contain;
 }
 
+html {
+  overflow-y: hidden;
+  padding-bottom: 25px;
+}
+
 .page-heading {
   background-image: url(../img/heading_bg.png);
   background-repeat: no-repeat;
@@ -243,14 +248,20 @@ nav {
 .full-screen-portfolio .portfolio-item:hover p {
   opacity: 1;
   transform: translateY(0);
- }
+}
+
 
 footer {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 50px;
   background-color: #2B2A29;
-
+  overflow-y: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 300;
 }
 
 .fa-github {
