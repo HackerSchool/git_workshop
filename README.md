@@ -1,8 +1,15 @@
 # **Workshop Git** 
 Workshop introdutório de git/GitHub.
 
+<br />
+
+#### [Apresentação](https://docs.google.com/presentation/d/1FAv3SRHo3dmo0lbiZKfJDwJLbDyXb00IzlbcZHiW8XU/edit?usp=sharing)
+
+<br />
 
 #### [LIVE WEBSITE](https://hackerschool.github.io/git_workshop/)
+
+<br />
 
 ## **Guia de Instalação**
 
@@ -14,6 +21,7 @@ Para o workshop são necessárias as seguintes ferramentas:
  - **Text Editor / IDE (Recommended - Visual Studio Code):** Iremos usar o VSCode como editor de código neste workshop ([Site de instalação](https://code.visualstudio.com/)).
  - (Opcional) **Windows Terminal:** Apenas opcional, mas para quem quiser esta versão do terminal do Windows 10/11 integra quaisquer terminais que tenham no computador (CMD, PowerShell, Ubuntu, etc.) com um visual mais compacto e moderno ([Site de instalação](https://docs.microsoft.com/en-us/windows/terminal/get-started)).
 
+<br />
 
 ## **git**
 
@@ -26,7 +34,8 @@ Para instalar o git na vossa máquina vão ter de correr os seguintes comandos (
 
 - **Windows WSL/Linux**:
 
-  - Abre o terminal e corre o seguinte comando: 
+  - Abre o terminal e corre o seguinte comando:
+
 ```
 sudo apt-get install git -y 
 ```
@@ -34,6 +43,7 @@ sudo apt-get install git -y
 - **macOS**:
 
   - Abre o terminal e corre o seguinte comando ([Homebrew](https://brew.sh/)): 
+
 ```
 brew install git
 ```
@@ -43,7 +53,22 @@ Depois de estar instalado verifiquem a instalação correndo o seguinte comando 
 git --version
 ```
 
+### Configurar Email e Username
 
+No teu terminal, corre os seguintes comandos registares a tua identificação no Git:
+
+```bash
+git config --global user.name "username"
+git config --global user.email "oteu@email.com"
+
+# Guarda as credenciais para não ser necessário colocar a cada ação no git (opcional)
+git config --global credential.helper store
+```
+
+Substitui os valores dentro das aspas (sem as removeres) com o teu username e email do GitHub.
+
+
+<br />
 
 ## **WSL (Windows Subsystem for Linux)**
 
@@ -53,6 +78,7 @@ O Subsistema Windows para Linux (WSL) permite que developers corram um ambiente 
 
 Iremos instalar a versão 2 do WSL, sendo esta a mais recente e a que melhor simula um ambiente GNU/Linux sem problemas de desempenho e compatibilidade.
 
+<br />
 
 ### **Passo 1 - Ativar o 'Windows Subsystem for Linux'**
 
@@ -78,6 +104,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 **Reinicia** a tua máquina para concluir a instalação do WSL e procede para o próximo passo para atualizares para o WSL 2.
 
+<br />
 
 ### **Passo 3 - Descarregar o pacote de atualização do kernel Linux**
 
@@ -88,6 +115,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 Assim que a instalação estiver concluída, passa para o próximo passo - definir WSL 2 como a versão padrão ao instalar novas distribuições Linux. 
 
+<br />
+
 ### **Passo 4 - Definir WSL 2 como a versão padrão**
 
 Abre PowerShell como Administrador e corre o seguinte comando para definir o WSL 2 como a versão padrão ao instalar novas distribuições Linux:
@@ -95,6 +124,9 @@ Abre PowerShell como Administrador e corre o seguinte comando para definir o WSL
 wsl --set-default-version 2
 ```
 ![Definir WSL 2 como padrão](https://i.imgur.com/FZb5xna.png)
+
+<br />
+
 ### **Passo 5 - Instalar a distribuição Linux - Ubuntu**
 
 Vamos usar o Ubuntu por ser a distribuição mais amigável na ótica do utilizador, mas também porque é a mais completa e versátil para qualquer ambiente de desenvolvimento.
@@ -124,12 +156,14 @@ sudo apt-get upgrade -y
 
 (Em principio se tiverem pacotes para atualizar, no vosso terminal o resultado dos comandos vai ser diferente)
 
+<br />
+
 **PARABÉNS! Instalaste e configuraste com sucesso o Ubuntu no Windows 10!**
 
 Esta secção foi baseada no guia oficial da Microsoft presente [neste site](https://docs.microsoft.com/pt-pt/windows/wsl/install-win10).
 
 
-
+<br />
 
 ## **Links Úteis:**
 
