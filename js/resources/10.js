@@ -4,11 +4,11 @@ document.write('\
 		<div class="thumb">\
 			<div class="hover-effect">\
 				<div class="hover-content">\
-					<h1><em>FirstName</em> LastName</h1>\
+					<h1><em>Diogo</em> Falcão</h1>\
 				</div>\
 			</div>\
 			<div class="image">\
-				<img src="img/crop_0.jpg">\
+				<img src="img/crop_10.jpg">\
 			</div>\
 		</div>\
 	</div>\
