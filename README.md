@@ -4,11 +4,9 @@ Workshop introdutório de git/GitHub.
 
 #### [Apresentação](https://docs.google.com/presentation/d/1FAv3SRHo3dmo0lbiZKfJDwJLbDyXb00IzlbcZHiW8XU/edit?usp=sharing)
 
-<br />
 
 #### [LIVE WEBSITE](https://hackerschool.github.io/git_workshop/)
 
-<br />
 
 ## **Guia de Instalação**
 
@@ -66,7 +64,6 @@ git config --global credential.helper store
 
 Substitui os valores dentro das aspas (sem as removeres) com o teu username e email do GitHub.
 
-
 <br />
 
 ## **WSL (Windows Subsystem for Linux)**
@@ -89,6 +86,8 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 ![PowerShell](https://i.imgur.com/shjnI9o.png)
 ![Comando para ativar WSL no Windows 10](https://i.imgur.com/DkGwscS.png)
+
+<br />
 
 ### **Passo 2 - Ativar o recurso de Máquina Virtual**
 
@@ -175,6 +174,7 @@ Esta secção foi baseada no guia oficial da Microsoft presente [neste site](htt
  - [Git Tutorial for Beginners](https://youtu.be/XF99kTmS2gg)
  - [GitHub Tutorial 2020 - Beginner's Training Guide](https://youtu.be/iv8rSLsi1xo)
 
+<br />
 
 ## **FIM**
 Quaisquer dúvidas adicionais recorram aos canais de discord atribuídos para esse fim.
