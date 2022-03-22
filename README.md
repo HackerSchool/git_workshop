@@ -1,7 +1,6 @@
 # **Workshop Git** 
 Workshop introdutório de git/GitHub.
 
-<br />
 
 #### [Apresentação](https://docs.google.com/presentation/d/1FAv3SRHo3dmo0lbiZKfJDwJLbDyXb00IzlbcZHiW8XU/edit?usp=sharing)
 
@@ -166,10 +165,11 @@ Esta secção foi baseada no guia oficial da Microsoft presente [neste site](htt
 <br />
 
 ## **Links Úteis:**
-
+ - [Introduction to Git **<-- RECOMMENDED**](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
+ - [Git Tutorial for Beginners](https://www.youtube.com/watch?v=DVRQoVRzMIY)
  - [Github Docs](https://docs.github.com/en)
  - [GitHub's Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
- - [Git Katas (Git learning with exercises) <-- **RECOMMENDED**](https://github.com/eficode-academy/git-katas)
+ - [Git Katas (Git learning with exercises) **<-- RECOMMENDED**](https://github.com/eficode-academy/git-katas)
  - [Git Basics with Professor António Rito Silva @IST](https://www.youtube.com/watch?v=MK-_CLSgDmc)
  - [GitHub's Training Website](https://try.github.io/)
  - [Git Tutorial for Beginners](https://youtu.be/XF99kTmS2gg)
