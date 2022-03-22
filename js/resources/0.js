@@ -8,7 +8,7 @@ document.write('\
 				</div>\
 			</div>\
 			<div class="image">\
-				<img src="img/crop_23.jpg">\
+				<img src="img/crop_2.jpg">\
 			</div>\
 		</div>\
 	</div>\
