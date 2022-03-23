@@ -4,7 +4,7 @@ document.write('\
 		<div class="thumb">\
 			<div class="hover-effect">\
 				<div class="hover-content">\
-					<h1><em>FirstName</em> LastName</h1>\
+					<h1><em>Clara</em> Menezes</h1>\
 				</div>\
 			</div>\
 			<div class="image">\
